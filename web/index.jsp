@@ -22,6 +22,11 @@
 <body>
     <h1><%= bean.getMensaje() %></h1>
     <p>Alumno: Raúl Palacios</p>
+    <p>Universidad: Tecmilenio</p>
+    <p>Actividad 4</p>
+    <p>Materia: Computación avanzada en JAVA</p>
+    <p>Ingenieria en Computación Administrativa</p>
+    <p>Profesor: Jesús Cázares Martinez</p>
     <p>Proyecto: Spring 5.3.30 con Java EE 8 Web</p>
 </body>
 </html>
