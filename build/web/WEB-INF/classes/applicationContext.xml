@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Bean institucional para mostrar mensaje en index.jsp -->
+    <bean id="mensajeBean" class="beans.MensajeBean">
+        <property name="mensaje" value="Hola Spring 5.3.30, Actividad 4 TecMilenio" />
+    </bean>
+
+</beans>
+
+
+
